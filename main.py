@@ -11,7 +11,7 @@ from langchain.chains import RetrievalQA
 from langchain_openai import OpenAI
 
 
-pinecone.init(api_key = "67be5599-aae8-4910-9a96-4f083e24679a" , environment = "gcp-starter")
+pinecone.init(api_key = "" , environment = "gcp-starter")
  
 if __name__ == "__main__":
         loaders = TextLoader('/home/pratik/Desktop/intro_to_vector_db/mediumblogs/mediumblog1.txt')
